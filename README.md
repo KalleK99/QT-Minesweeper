@@ -14,5 +14,4 @@ that are nearby. If there are no mines nearby, all the empty squares nearby will
 When the game ends, the player can either start a new game by pressing the Reset button and then the Start button again, or just close the program by clicking the close button
 
 # Design decisions:
-The layout of the UI consists of various smaller layouts nestled nestled into one big vertical box layout. The gamoboard is made of pushbuttons that are inserted into a grid layout.The pointers to these pushbuttons are stored in a vector that has the same dimensions as the board_ vector. This makes it very simple to syncronize the UI gameboard buttons
-with the GameBoard object squares, as you can just use the same coordinates.
+The layout of the UI consists of various smaller layouts nestled nestled into one big vertical box layout. The gameboard is made of PushButtons that are inserted into a GridLayout.The pointers to these PushButtons are stored in a vector that has the same dimensions as the board_ vector. This makes it very simple to syncronize the UI gameboard buttons with the GameBoard object squares, as you can just use the same coordinates.
